@@ -1,0 +1,38 @@
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Login</ion-card-title>
+      <ion-card-subtitle>Penambahan Barang</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <input
+        placeholder="Username"
+        class="login__input"
+        type="text"
+        [(ngModel)]="username"
+        required="required"
+      />
+
+      <input
+        placeholder="Password"
+        class="login__input"
+        type="password"
+        [(ngModel)]="password"
+        required="required"
+      />
+
+      <ion-row>
+        <ion-col>
+          <ion-button
+            type="submit"
+            color="primary"
+            expand="block"
+            (click)="prosesLogin()"
+            >Login</ion-button
+          >
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

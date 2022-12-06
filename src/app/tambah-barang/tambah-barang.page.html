@@ -1,0 +1,32 @@
+<ion-header
+  ><ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="onCancel()"> Cancel </ion-button>
+    </ion-buttons>
+    <ion-title>Beli Barang Baru</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form #form="ngForm" (ngSubmit)="onTambahBarang(form)">
+    <div class="daftar__container">
+      <input
+        class="daftar__input"
+        name="name"
+        type="text"
+        placeholder="Nama"
+        [(ngModel)]="nama"
+        required
+      />
+      <input
+        class="daftar__input"
+        name="keterangan"
+        type="text"
+        placeholder="Keterangan"
+        [(ngModel)]="keterangan"
+        required
+      />
+      <ion-button type="submit" expand="block">Tambah</ion-button>
+    </div>
+  </form>
+</ion-content>

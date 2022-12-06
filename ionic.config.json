@@ -1,0 +1,7 @@
+{
+  "name": "pendaftaran_mahasiswa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

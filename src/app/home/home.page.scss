@@ -1,0 +1,37 @@
+.home__button {
+  margin-left: 16px;
+}
+
+.home__card {
+  margin: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #222428;
+  padding: 16px;
+}
+
+.home__card-title {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.home__card-datas {
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.home__card-data {
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
